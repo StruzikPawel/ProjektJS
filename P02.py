@@ -35,3 +35,10 @@ print("Wykres notowań wybranych spółek")
 
 
 plt.show(dane_spolek)
+
+
+plt.plot(dane_spolek)
+plt.show()
+
+plt.plot(log_returns)
+plt.show()
