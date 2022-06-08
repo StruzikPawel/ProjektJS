@@ -34,11 +34,10 @@ print (log_returns.tail())
 print("Wykres notowań wybranych spółek")
 
 
-plt.show(dane_spolek)
-
-
+plt.show(dane_spolek)plt.title("Notowania")
 plt.plot(dane_spolek)
 plt.show()
 
+plt.title("Dzienne stopy zwrotu")
 plt.plot(log_returns)
 plt.show()
